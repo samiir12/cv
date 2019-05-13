@@ -1,0 +1,36 @@
+
+body{
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+}
+@keyframes animate{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 100%;
+    }
+}
+h3{
+    color: white;
+}
+.reg{
+    margin-left: 87%;
+    padding-top: 5%;
+    color: white;
+    font-size: 20px;
+    
+}
+.ss{
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: rgba(165, 105, 14, 0.904);
+}
+p{
+    color: white;
+    font-size: 30px;
+}
